@@ -1,9 +1,13 @@
-*{
+
+
+
+
+main{
   font-family: "Montserrat", sans-serif;
 }
 
 nav{
-    background-color: rgb(38, 38, 38, 0.744);
+    background-color:  rgba(255, 153, 0, 0.233);
 }
 
 
@@ -24,6 +28,7 @@ nav{
 }
 
 header{
+    font-family: "Roboto", sans-serif;
     background-image: url(./media/background.webp);
     height: 80vh;
     background-size: cover;
@@ -32,8 +37,14 @@ header{
 }
 
 h1{
-    color: white;
     font-size: 50px;
+    color: rgb(255, 153, 0);
+    text-shadow: 1px 1px 2px black;
+}
+
+h2{
+    color: rgb(255, 153, 0);
+    text-shadow: 1px 1px 2px black;
 }
 
 .linkHome{
@@ -48,6 +59,6 @@ h1{
 }
 
 .btnArticle:hover{
-    background-color: yellow;
+    background-color: rgb(255, 153, 0);
     color: black;
 }
