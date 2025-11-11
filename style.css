@@ -8,6 +8,10 @@ main{
 
 nav{
     background-color:  rgba(255, 153, 0, 0.233);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
 }
 
 
@@ -19,12 +23,19 @@ nav{
 
 .link{
     text-decoration: none;
-    color: white;
+    color: black;
+    margin-right: 10px;
+}
+
+.link:hover{
+    border-bottom: 2px solid rgb(255, 153, 0);
+
 }
 
 
 .listlink{
     list-style-type:none;
+    display:flex ;
 }
 
 header{
@@ -33,7 +44,10 @@ header{
     height: 80vh;
     background-size: cover;
     background-position: center;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 h1{
@@ -61,4 +75,29 @@ h2{
 .btnArticle:hover{
     background-color: rgb(255, 153, 0);
     color: black;
+}
+
+.titleArticle{
+    text-align: center;
+}
+
+.imgArticle{
+    width: 300px;
+}
+
+.containerArticle{
+    display: flex;
+    width: 60%;
+
+}
+
+aside{
+    background-color:rgb(255, 153, 0) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main{
+    display: flex;
 }
